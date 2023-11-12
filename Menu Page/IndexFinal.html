@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<!-- Francesco Irish -->
+<html>
+<head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Page</title>
+    <link rel="stylesheet" href="Styles2.css">
+</head>
+<body>
+    <h1>Welcome</h1>
+    <p>Welcome to my Menu page, from here you may navigate to any of my linked webpages. just access the menu option on the top right of the page. <br>
+        Subsequently on any linked pages there will be a "Home" button to bring you back here.</p>
+    <div class="container">
+        <img src="menu.png" class="menu-icon" onclick="openmenu()">
+        <div class="menu-box" id="menu">
+           
+            <div class="right-links">
+                <img src="close.png" onclick="closemenu()">
+            </div>
+           
+            <div class="menu-links">
+                <a href="file:///D:/Notepad++/College%20Projects/Menu%20Page/Table.html">Self Assesment Table</a>
+                <a href="file:///D:/Notepad++/College%20Projects/Menu%20Page/index.html">Palindrome</a>
+                <a href="file:///D:/Notepad++/College%20Projects/Menu%20Page/indexmeme.htm">Meme-Index</a>
+                <a href="file:///D:/Notepad%2B%2B/College%20Projects/Menu%20Page/Game.html">Game</a>
+                <a href="file:///D:/Notepad++/College%20Projects/Menu%20Page/boards.html">Boards</a>
+            </div>
+        </div>
+    </div>
+<script>
+    var menu = document.getElementById("menu");
+
+    function closemenu(){
+        menu.style.top = "-100vh";
+    }
+    function openmenu(){
+        menu.style.top = "17%";
+    }
+</script>
+<footer>
+    Francesco Irish<br>
+    University of Advancing Technology<br>
+    2625 W. Baseline Road<br>
+    Tempe, AZ 85283-1056<br>
+</footer>
+</body>
+</html>

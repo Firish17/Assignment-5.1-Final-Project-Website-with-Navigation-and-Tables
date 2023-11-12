@@ -1,0 +1,42 @@
+body {
+	text-align: center;
+	background-color: black;
+    color: white;
+
+}
+
+title {
+	text-align: center;
+  color: white;
+}
+
+nav {
+	height: 6000px;
+	width: 200px;
+	float: left;
+	padding: 5px;
+	line-height: 30px;
+}
+
+footer{
+	text-align: center;
+	margin-right: 200px;
+}
+memeImage{
+	position: relative;
+}
+header{
+	text-align: center;
+}
+
+.move {
+	transform: translate(500px, 500px);
+  }
+  form
+{
+    font-family: 'Poppins', sans-serif;
+}
+footer 
+{
+    font-family: 'Poppins', sans-serif;
+}
